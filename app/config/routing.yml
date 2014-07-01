@@ -1,0 +1,9 @@
+homepage:
+    pattern: /
+    defaults: {_controller: AcmeRentacarBundle:Reservation:index }
+
+AcmeRentacariBundle:
+    resource: "@AcmeRentacarBundle/Controller/"
+    type:     annotation
+    prefix:   /
+

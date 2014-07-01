@@ -1,0 +1,10 @@
+{% extends "AcmeRentacarBundle::base.html.twig" %}
+
+{% block page_title 'Welcome to Five stars Rentacar' %}
+{% set menu = 'home'  %}
+
+{% block content  %}
+<div>
+  <a href="{{ path('reservation_new') }}" class="bnt large info"> 予約フォームへ進む</a>
+</div>
+{% endblock  %}
