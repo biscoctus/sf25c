@@ -1,6 +1,6 @@
 {% extends "AcmeRentacarBundle::base.html.twig" %}
 
-{% block page_title }予約内容確認{% endblock %}
+{% block page_title '予約内容確認' %}
 
 {% block content %}
 <h3>請求金額</h3>
@@ -21,11 +21,11 @@
         </tr>
         <tr>
           <td>オプション</td>
-          <td class="amount-col">&yen; {{ 1000|number_format }</td>
+          <td class="amount-col">&yen; {{ 1000|number_format }}</td>
         </tr>
         <tr class="total-amount-row">
           <td>合計金額</td>
-          <td class="amount-col">&yen; {{ 8000|number_format }</td>
+          <td class="amount-col">&yen; {{ 8000|number_format }}</td>
         </tr>
       </tbody>
     </table>
